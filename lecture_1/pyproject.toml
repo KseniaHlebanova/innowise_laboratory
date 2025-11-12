@@ -1,0 +1,18 @@
+[project]
+name = "lecture-1"
+version = "0.1.0"
+description = "Training project for learning Python project setup"
+authors = [
+    {name = "Ksenia Hlebanova"}
+]
+requires-python = ">=2.7,<3.0.dev0 || >=3.7.dev0"
+dependencies = [
+    "colorama>=0.4.6"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry]
+package-mode = false
